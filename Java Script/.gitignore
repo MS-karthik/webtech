@@ -4,4 +4,9 @@ overflow.pdf
 transition_transform.pdf
 Units.pdf
 README.md
+
+# macOS system files
 .DS_Store
+**/.DS_Store
+.AppleDouble
+**/.AppleDouble
