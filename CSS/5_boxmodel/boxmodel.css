@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.card1 {
+  height: 200px;
+  width: 350px;
+  background-color: lightpink;
+
+  /* padding: 30px; */
+
+  /* padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 25px;
+  padding-left: 15px; */
+
+  padding: 20px 60px 60px 80px;
+  margin: 50px;
+
+  border: 5px solid red;
+}
+
+.card1 > h2 {
+  background-color: lightseagreen;
+  /* padding-bottom: 20px; */
+  margin: 20px;
+}
+
+.card1 > p {
+  padding: 10px;
+  text-align: justify;
+  background-color: lightyellow;
+  /* border: 13px solid black; */
+  border-width: 5px;
+  border-style: dotted;
+  border-color: blue;
+  border-radius: 20px;
+}
+
+#btn1 {
+  padding: 20px 40px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  background-color: orangered;
+  color: white;
+  margin-top: 30px;
+}
+#btn1:hover {
+  background-color: blue;
+}

@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    display: flex;
+
+}
+.outer>.left{
+    flex-basis: 60%;
+    background: linear-gradient(red, yellow);
+}
+.outer>.right{
+    flex-basis: 60%;
+    background: linear-gradient(green, skyblue);
+}
+.left>.box{
+    height: 150px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: white;
+}

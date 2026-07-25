@@ -1,0 +1,23 @@
+.header > h1 {
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 1px 3px 4px blue;
+}
+
+.header > p {
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  text-indent: 100px;
+  line-height: 20px;
+  color: green;
+}
+
+.header > h1{
+    color: blue;    
+}
+
+ul>#first+li{
+color: green;
+}

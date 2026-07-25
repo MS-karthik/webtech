@@ -1,0 +1,37 @@
+/* 1. Tagname selector */
+
+h1 {
+  color: seagreen;
+  text-align: center;
+}
+
+/* 2. ID selector */
+
+#para1 {
+  font-size: larger;
+  font-weight: bold;
+}
+
+/* 3. Class Selector */
+
+.box {
+  background-color: aqua;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  border-radius: 100px;
+}
+
+/* 4. universal selector */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 5. group selector */
+
+#para1,
+.box {
+  font-style: italic;
+  color: darkturquoise;
+}

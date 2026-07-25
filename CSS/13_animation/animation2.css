@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  background: linear-gradient(lightblue, lightyellow, lightgreen);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+main > .circle {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  animation: up_down 1s ease-in infinite alternate;
+}
+main > #c1 {
+  background-color: blue;
+}
+main > #c2 {
+  background-color: yellow;
+  animation-delay: 0.1s;
+}
+main > #c3 {
+  background-color: green;
+  animation-delay: 0.2s;
+}
+main > #c4 {
+  background-color: black;
+  animation-delay: 0.3s;
+}
+main > #c5 {
+  background-color: aqua;
+  animation-delay: 0.4s;
+}
+@keyframes up_down {
+  from {
+    transform: translateY(-200px);
+    color: blue;
+  }
+  to {
+    transform: translateY(200px);
+    color: green;
+    font-size: 10px;
+  }
+}
+section{
+     height: 100vh;
+  background: linear-gradient(lightblue, lightyellow, lightgreen);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+section > .circle {
+    font-size: 50px;
+  animation: up_down 1s ease-in infinite alternate;
+  border: non;
+}
+section > #c1 {
+}
+section > #c2 {
+  animation-delay: 0.1s;
+}
+section > #c3 {
+  animation-delay: 0.2s;
+}
+section > #c4 {
+  animation-delay: 0.3s;
+}
+section > #c5 {
+  animation-delay: 0.4s;
+}
+section > #c6 {
+  animation-delay: 0.5s;
+}
+.outer{
+    height: 100vh;
+    background: linear-gradient(to right top, red, black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    height: 400px;
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+}
+
+.inner>.box{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: green;
+    animation: movingbox 2s ease-in infinite alternate;
+}
+@keyframes movingbox {
+    0%{
+        transform: translate(0.0);
+    }
+    25%{
+        transform: translate(300px,0);
+    }
+    50%{
+        transform: translate(300px,300px);
+    }
+    75%{
+        transform: translate(0, 300px);
+    }
+}
