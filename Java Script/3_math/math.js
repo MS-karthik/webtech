@@ -49,3 +49,12 @@ console.log(num);
 // ! math.pow
 
 console.log(Math.pow(2, 3));
+
+let b=2;
+let p=5;
+let sum=1;
+
+for(let i=1; i >=p ; i++){
+    sum= sum * b;
+}
+console.log(sum);
